@@ -1,0 +1,9 @@
+{
+  "name": "giflw-vue-components",
+  "version": "0.1.0",
+  "description": "Vue components from GIFLW",
+  "main": "index.js",
+  "repository": "git@github.com:giflw/vue-components.git",
+  "author": "Guilherme I F L Weizenmann",
+  "license": "GPLv3"
+}
