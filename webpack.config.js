@@ -1,10 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    'giflw-vue-components': './src/index.js'
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'giflw-vue-components.js',
+    filename: '[name].bundle.js',
     library: 'GIFLWVueComponents',
     libraryTarget: 'umd'
   },
